@@ -89,3 +89,48 @@ button {
     margin: 5px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 415px) {
+    body {
+        box-sizing: border-box;
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #header-detail {
+        margin: 0;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .container {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .top-container {
+        padding: 20px;
+    }
+    .bottom-container {
+        flex-direction: column;
+        width: auto;
+    }
+    .price {
+        width: auto;
+        border-radius: 0;
+        padding: 0 20px 20px 20px;
+    }
+    .price p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .details {
+        width: auto;
+        border-radius: 0 0 10px 10px;
+        padding: 0 20px 20px 20px;
+    }
+}
